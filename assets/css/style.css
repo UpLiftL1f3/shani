@@ -1,0 +1,42 @@
+body {
+  height: 100%;
+  background-image: url(../images/nareeta-martin-pEWtWnDgGLs-unsplash.jpg);
+}
+
+#innerBody {
+  background-color: transparent;
+}
+
+/* Navbar */
+#navbar-title {
+  justify-content: center;
+  font-family: 'Commissioner', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Hero Section */
+#hero-section {
+  width: 100%;
+  height: 230%;
+}
+
+#hero-logo {
+  width: 33%;
+}
+
+.hero-text {
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+#heroBtn {
+  background-color: #4fdfff;
+  box-shadow: 0 5px #4fdfff;
+  transform: translateY(2px);
+}
+#heroBtn:active {
+  background-color: rgb(255, 189, 244);
+  box-shadow: 0 5px rgb(255, 189, 244);
+  transform: translateY(5px);
+}
